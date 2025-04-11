@@ -17,25 +17,80 @@ This SQL portfolio project analyzes 10,000+ transactions from Seabank, GCash, an
   - `amount`: Transaction amount in PHP
   - `transaction_status`: Success, Failed, or Pending
   - `timestamp`: Transaction date & time
-  - `location`: Philippine city (e.g., Cebu City, Davao, Makati)
+  - `location`: Philippine cities (e.g., Cebu City, Davao, Makati)
 
----
+==
+🔍 Business Questions, Insights & Recommendations
+1. What are the most common transaction types?
+🧠 Insight:
+We can identify which services users engage with most (e.g., sending money, paying bills).
 
-## 🔍 Business Questions
+SQL Query:
+We analyze the most common transaction types and their success/failure rates.
 
-1. **What are the most common transaction types, and where should we improve transaction success rates?**
-2. **How do transaction volumes and values trend monthly?**
-3. **Which channels and device types are most used?**
-4. **What’s the success rate of transactions?**
-5. **Which cities are most active in transactions?**
+💡 Recommendations:
 
----
+If "Cash Out" fails a lot: Work with partners to ensure they always have enough cash available.
 
-## 💡 Sample Insights (from `queries.sql`)
+If "Pay Bills" fails frequently: Check API connections to billers or add retry mechanisms.
 
-### 🔹 Most Popular Transaction Types
-```sql
-SELECT transaction_type, COUNT(*) AS count
-FROM online_bank_transactions
-GROUP BY transaction_type
-ORDER BY count DESC;
+Proactive Measures: Implement alerts to prevent failures or validate info before transactions go through.
+==
+2. How do transaction volumes and values trend monthly?
+🧠 Insight:
+Understanding peak transaction times and values helps predict demand and plan resources.
+
+💡 Recommendations:
+
+If there’s a drop in transactions: Consider launching marketing promotions or new features to re-engage users.
+
+If transactions increase: Identify what contributed to the growth (like a promo or new biller) and repeat it.
+==
+3. Which channels and devices are most used?
+🧠 Insight:
+Helps prioritize platform improvements and marketing strategies.
+
+SQL Query:
+Analyzes which channels (app, web, partner outlets) and devices (Android, iOS) users prefer.
+
+💡 Recommendations:
+
+If Android is the most-used device: Focus on optimizing the app for older Android models.
+
+If partner outlets are popular: Ensure a good partner network with adequate cash availability.
+
+If web usage is low: Run targeted campaigns to increase usage or improve the web experience.
+==
+4. What’s the success vs. failure rate of transactions?
+🧠 Insight:
+Indicates how well the platform is performing in terms of transaction completion.
+
+SQL Query:
+Examines the success/failure rates and helps identify the root cause of failures.
+
+💡 Recommendations:
+
+High failure rates: Investigate reasons like downtime or incorrect data, and set up real-time alerts for issues.
+
+Improve transaction flow: Add pre-checks or retry mechanisms to ensure smoother transactions.
+==
+5. Which cities are most active in transactions?
+🧠 Insight:
+Helps determine where to focus marketing and service improvements.
+
+SQL Query:
+Identifies the top cities with the highest number of transactions.
+
+💡 Recommendations:
+
+In high-activity cities: Focus marketing and add more partner outlets for cash-in/out services.
+
+In cities with a drop in transactions: Investigate if service issues or outages are affecting users.
+
+📊 Technologies Used
+SQL: MySQL, CTEs (Common Table Expressions)
+
+Data: Simulated data with 10,000 rows based on Seabank, GCash, and Maya, (I have used ChatGPT to aid me in generating these data samples for my analysis)
+
+Tools: MySQL Workbench, Excel
+
