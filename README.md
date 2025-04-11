@@ -23,7 +23,7 @@ This project simulates and analyzes 10,000 synthetic transactions from a fiction
 
 ## 🔍 Business Questions
 
-1. **What are the most common transaction types?**
+1. **What are the most common transaction types, and where should we improve transaction success rates?**
 2. **How do transaction volumes and values trend monthly?**
 3. **Which channels and device types are most used?**
 4. **What’s the success rate of transactions?**
