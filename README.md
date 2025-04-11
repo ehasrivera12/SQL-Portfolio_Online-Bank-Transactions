@@ -22,6 +22,7 @@ This SQL portfolio project analyzes 10,000+ transactions from Seabank, GCash, an
 ==
 🔍 Business Questions, Insights & Recommendations
 1. What are the most common transaction types?
+   
 🧠 Insight:
 We can identify which services users engage with most (e.g., sending money, paying bills).
 
