@@ -19,7 +19,6 @@ This SQL portfolio project analyzes 10,000+ transactions from Seabank, GCash, an
   - `timestamp`: Transaction date & time
   - `location`: Philippine cities (e.g., Cebu City, Davao, Makati)
 
-==
 🔍 Business Questions, Insights & Recommendations
 1. What are the most common transaction types?
    
@@ -35,7 +34,7 @@ If "Cash Out" fails a lot: Work with partners to ensure they always have enough 
 
 If "Pay Bills" fails frequently: Check API connections to billers or add retry mechanisms.
 
-Proactive Measures: Implement alerts to prevent failures or validate info before transactions go through.
+# Proactive Measures: Implement alerts to prevent failures or validate info before transactions go through.
 ==
 2. How do transaction volumes and values trend monthly?
 🧠 Insight:
@@ -46,7 +45,7 @@ Understanding peak transaction times and values helps predict demand and plan re
 If there’s a drop in transactions: Consider launching marketing promotions or new features to re-engage users.
 
 If transactions increase: Identify what contributed to the growth (like a promo or new biller) and repeat it.
-==
+
 3. Which channels and devices are most used?
 🧠 Insight:
 Helps prioritize platform improvements and marketing strategies.
@@ -61,7 +60,7 @@ If Android is the most-used device: Focus on optimizing the app for older Androi
 If partner outlets are popular: Ensure a good partner network with adequate cash availability.
 
 If web usage is low: Run targeted campaigns to increase usage or improve the web experience.
-==
+
 4. What’s the success vs. failure rate of transactions?
 🧠 Insight:
 Indicates how well the platform is performing in terms of transaction completion.
@@ -74,7 +73,7 @@ Examines the success/failure rates and helps identify the root cause of failures
 High failure rates: Investigate reasons like downtime or incorrect data, and set up real-time alerts for issues.
 
 Improve transaction flow: Add pre-checks or retry mechanisms to ensure smoother transactions.
-==
+
 5. Which cities are most active in transactions?
 🧠 Insight:
 Helps determine where to focus marketing and service improvements.
