@@ -1,6 +1,6 @@
 # 💸 Online Bank Transactions Analysis (GCash/Maya Style) 🇵🇭
 
-This project simulates and analyzes 10,000 synthetic transactions from a fictional mobile wallet similar to **GCash** or **Maya**, focused on the **Philippine market**. The goal is to uncover valuable insights for stakeholders in product, marketing, and operations.
+This SQL portfolio project analyzes 10,000+ transactions from Seabank, GCash, and Maya-style online banking transactions, using realistic data from the Philippines. The goal is to showcase SQL skills, perform business analysis, and provide actionable insights to improve services.
 
 ---
 
