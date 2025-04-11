@@ -19,8 +19,9 @@ This SQL portfolio project analyzes 10,000+ transactions from Seabank, GCash, an
   - `timestamp`: Transaction date & time
   - `location`: Philippine cities (e.g., Cebu City, Davao, Makati)
 
-🔍 Business Questions, Insights & Recommendations
-1. What are the most common transaction types?
+## 🔍 Business Questions, Insights & Recommendations
+
+## 1. What are the most common transaction types?
    
 🧠 Insight:
 We can identify which services users engage with most (e.g., sending money, paying bills).
@@ -36,7 +37,7 @@ If "Pay Bills" fails frequently: Check API connections to billers or add retry m
 
 Proactive Measures: Implement alerts to prevent failures or validate info before transactions go through.
 
-2. How do transaction volumes and values trend monthly?
+## 2. How do transaction volumes and values trend monthly?
 🧠 Insight:
 Understanding peak transaction times and values helps predict demand and plan resources.
 
@@ -46,7 +47,8 @@ If there’s a drop in transactions: Consider launching marketing promotions or 
 
 If transactions increase: Identify what contributed to the growth (like a promo or new biller) and repeat it.
 
-3. Which channels and devices are most used?
+## 3. Which channels and devices are most used?
+
 🧠 Insight:
 Helps prioritize platform improvements and marketing strategies.
 
@@ -61,7 +63,8 @@ If partner outlets are popular: Ensure a good partner network with adequate cash
 
 If web usage is low: Run targeted campaigns to increase usage or improve the web experience.
 
-4. What’s the success vs. failure rate of transactions?
+## 4. What’s the success vs. failure rate of transactions?
+
 🧠 Insight:
 Indicates how well the platform is performing in terms of transaction completion.
 
@@ -74,7 +77,7 @@ High failure rates: Investigate reasons like downtime or incorrect data, and set
 
 Improve transaction flow: Add pre-checks or retry mechanisms to ensure smoother transactions.
 
-5. Which cities are most active in transactions?
+## 5. Which cities are most active in transactions?
 🧠 Insight:
 Helps determine where to focus marketing and service improvements.
 
@@ -87,7 +90,7 @@ In high-activity cities: Focus marketing and add more partner outlets for cash-i
 
 In cities with a drop in transactions: Investigate if service issues or outages are affecting users.
 
-📊 Technologies Used
+## 📊 Technologies Used
 SQL: MySQL, CTEs (Common Table Expressions)
 
 Data: Simulated data with 10,000 rows based on Seabank, GCash, and Maya, (I have used ChatGPT to aid me in generating these data samples for my analysis)
