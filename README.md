@@ -86,11 +86,20 @@ Helps determine where to focus marketing and service improvements.
 SQL Query:
 Identifies the top cities with the highest number of transactions.
 
-💡 Recommendations:
+## Key Insights
 
-In high-activity cities: Focus marketing and add more partner outlets for cash-in/out services.
+* Analysis revealed that younger demographics heavily utilize e-wallets for smaller, frequent transactions, suggesting a preference for convenience and digital-native platforms.
+* Older demographics show a stronger preference for traditional bank transfers for larger, less frequent transactions, possibly indicating a higher level of trust or familiarity.
+* A significant portion of users utilize direct debit for recurring bill payments, highlighting its importance for regular financial obligations.
 
-In cities with a drop in transactions: Investigate if service issues or outages are affecting users.
+## Recommendations
+
+Based on the analysis, the following recommendations are proposed:
+
+* **For E-wallets:** Invest in partnerships with popular e-wallet providers and optimize the mobile banking app for seamless integration.
+* **For Bank Transfers:** Streamline the bank transfer process within the online platform, potentially offering pre-filled beneficiary details for frequent transactions.
+* **For Direct Debit:** Ensure clear and user-friendly setup and management of direct debit mandates within the user interface.
+* **Consider User Education:** Develop targeted educational campaigns highlighting the benefits and ease of use of different payment channels for specific user segments.
 
 ## 📊 Technologies Used
 SQL: MySQL, CTEs (Common Table Expressions)
