@@ -41,11 +41,13 @@ Proactive Measures: Implement alerts to prevent failures or validate info before
 🧠 Insight:
 Understanding peak transaction times and values helps predict demand and plan resources.
 
-💡 Recommendations:
+Based on the analysis, the following recommendations are proposed:
 
-If there’s a drop in transactions: Consider launching marketing promotions or new features to re-engage users.
+* **For E-wallets:** Invest in partnerships with popular e-wallet providers and optimize the mobile banking app for seamless integration.
+* **For Bank Transfers:** Streamline the bank transfer process within the online platform, potentially offering pre-filled beneficiary details for frequent transactions.
+* **For Direct Debit:** Ensure clear and user-friendly setup and management of direct debit mandates within the user interface.
+* **Consider User Education:** Develop targeted educational campaigns highlighting the benefits and ease of use of different payment channels for specific user segments.
 
-If transactions increase: Identify what contributed to the growth (like a promo or new biller) and repeat it.
 
 ## 3. Which channels and devices are most used?
 
